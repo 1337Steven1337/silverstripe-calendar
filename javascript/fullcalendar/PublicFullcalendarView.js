@@ -10,7 +10,7 @@ var PublicFullcalendarView;
 		//Note that these are mostly for illustration purposes,
 		//and will be overwritten by CalendarConfig, and in turn by each site's individual config
 		$this.options = {
-			controllerUrl: '/fullcalendar/',
+			controllerUrl: 'fullcalendar/',
 			fullcalendar: {
 				header: {
 					left: 'prev, next',
