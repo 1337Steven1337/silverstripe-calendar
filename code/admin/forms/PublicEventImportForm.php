@@ -22,9 +22,9 @@ class PublicEventImportForm extends Form
             FieldList::create(
                 FormAction::create('doUpload', 'Upload')
             ),
-            RequiredFields::create([
+            RequiredFields::create(array(
                 'CsvFile'
-            ])
+            ))
         );
     }
 
